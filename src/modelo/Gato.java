@@ -1,12 +1,16 @@
 package modelo;
 
 public class Gato extends Animal {
+
     public Gato(String nombre) {
         super(nombre);
     }
 
+    /**
+     * @return Sonido de Gato - "Miau"
+     */
     @Override
-    public void sonido() {
-        System.out.println("Miau");
+    public String sonido() {
+        return "Miau";
     }
 }

@@ -1,5 +1,6 @@
-package test;
-import modelo.*;
+import modelo.Animal;
+import modelo.Gato;
+import modelo.Perro;
 
 public class App {
     public static void main(String[] args) {

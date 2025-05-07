@@ -5,8 +5,11 @@ public class Perro extends Animal{
         super(nombre);
     }
 
+    /**
+     * @return Sonido de Perro - "Guau"
+     */
     @Override
-    public void sonido() {
-        System.out.println("Guau");
+    public String sonido() {
+        return "Guau";
     }
 }
